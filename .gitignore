@@ -45,4 +45,4 @@ web/themes/contrib/*
 core
 
 # Ignore all database
-.gz
+*.sql.gz
