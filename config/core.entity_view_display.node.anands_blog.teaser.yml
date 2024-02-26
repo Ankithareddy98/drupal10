@@ -1,0 +1,32 @@
+uuid: 0a9490eb-7be8-4d18-b852-0f6c3a8acb14
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.anands_blog.body
+    - field.field.node.anands_blog.field_published_on
+    - node.type.anands_blog
+  module:
+    - text
+    - user
+id: node.anands_blog.teaser
+targetEntityType: node
+bundle: anands_blog
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_published_on: true

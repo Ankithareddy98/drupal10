@@ -1,0 +1,17 @@
+uuid: 026d733c-8e81-4f6f-b627-1edfa57259a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Anands Blog'
+type: anands_blog
+description: "This content types has all of anand's blog"
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
