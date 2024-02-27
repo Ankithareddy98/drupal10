@@ -1,0 +1,24 @@
+uuid: 646d0517-1d4e-48c1-888e-392642d3e8fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_published_on
+    - node.type.anands_blog
+  module:
+    - datetime
+id: node.anands_blog.field_published_on
+field_name: field_published_on
+entity_type: node
+bundle: anands_blog
+label: 'Published on'
+description: 'Has published on date'
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime
