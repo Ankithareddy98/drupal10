@@ -1,0 +1,22 @@
+uuid: 1dd1890d-1393-4991-a9c8-5c2b06e3bcd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.anand_s_blog
+id: node.anand_s_blog.promote
+field_name: promote
+entity_type: node
+bundle: anand_s_blog
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

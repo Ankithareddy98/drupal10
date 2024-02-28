@@ -1,0 +1,24 @@
+uuid: 9709d227-e73a-4e88-8c75-cd1e67ee4022
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.anand_s_blog
+  module:
+    - text
+id: node.anand_s_blog.body
+field_name: body
+entity_type: node
+bundle: anand_s_blog
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
