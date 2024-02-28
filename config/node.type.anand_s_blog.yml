@@ -1,0 +1,17 @@
+uuid: 04ce31d2-5feb-4806-b07a-07bc39ba4d65
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: "Anand's Blog"
+type: anand_s_blog
+description: 'This is a test blog for practice purposes.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

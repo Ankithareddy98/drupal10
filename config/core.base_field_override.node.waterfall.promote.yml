@@ -1,0 +1,22 @@
+uuid: f05821a2-7faf-466f-bbe5-85c1447ddfc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.waterfall
+id: node.waterfall.promote
+field_name: promote
+entity_type: node
+bundle: waterfall
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
