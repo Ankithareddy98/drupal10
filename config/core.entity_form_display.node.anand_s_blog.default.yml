@@ -5,11 +5,13 @@ dependencies:
   config:
     - field.field.node.anand_s_blog.body
     - field.field.node.anand_s_blog.field_comments
+    - field.field.node.anand_s_blog.field_images
     - field.field.node.anand_s_blog.field_published_date
     - node.type.anand_s_blog
   module:
     - comment
     - datetime
+    - media_library
     - path
     - text
 id: node.anand_s_blog.default
@@ -38,6 +40,13 @@ content:
     weight: 123
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_images:
+    type: media_library_widget
+    weight: 124
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   field_published_date:
     type: datetime_default
